@@ -63,12 +63,6 @@ STRIPE_SECRET_KEY="your_stripe_secret_key"
 - Document testing results in a CSV file.
 - Track issues and fixes to ensure deployment readiness.
 
-## Step 5: Performance Testing
-- Use **Lighthouse** or **GTmetrix** to analyze page load speed and interactivity.
-- Optimize for fast performance across desktop, tablet, and mobile devices.
-
-## Test Cases
-
 | Test Case | Test Case Name | Test Steps | Expected Outcome | Actual Result | Status | Severity Level | Remarks |
 |-----------|----------------|------------|------------------|---------------|--------|---------------|---------|
 | TC001 | Product Listing | Verify product display | Products load dynamically | Displayed correctly | Passed | High | No issues found |
@@ -86,6 +80,12 @@ STRIPE_SECRET_KEY="your_stripe_secret_key"
 | TC013 | Security Testing | Validate inputs & security | No security vulnerabilities | Security tests passed | Passed | Critical | Security validation done |
 | TC014 | User Acceptance Testing | Simulate user workflows | Smooth user experience | User workflows verified | Passed | Medium | UAT passed |
 | TC015 | Documentation Updates | Document findings | Complete documentation | Documentation updated | Passed | Medium | All updates documented |
+
+## Step 5: Performance Testing
+- Use **Lighthouse** or **GTmetrix** to analyze page load speed and interactivity.
+- Optimize for fast performance across desktop, tablet, and mobile devices.
+
+
 
 ## Conclusion
 The above steps ensure a seamless transition from development to live deployment. By following this process, the application is well-optimized, secure, and production-ready for users.
