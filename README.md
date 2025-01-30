@@ -25,15 +25,6 @@ Vercel has been selected due to its:
 A `.env` file stores sensitive environment variables securely. Example:
 ```
 NEXT_PUBLIC_SANITY_PROJECT_ID="your_sanity_project_id"
-NEXT_PUBLIC_SANITY_DATASET="your_sanity_dataset"
-SANITY_API_TOKEN="your_sanity_api_token"
-NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY="your_clerk_publishable_key"
-CLERK_SECRET_KEY="your_clerk_secret_key"
-SHIPENGINE_API_KEY="your_shipengine_api_key"
-SHIPENGINE_FIRST_COURIER="your_first_courier"
-SHIPENGINE_SECOND_COURIER="your_second_courier"
-SHIPENGINE_THIRD_COURIER="your_third_courier"
-SHIPENGINE_FOURTH_COURIER="your_fourth_courier"
 NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY="your_stripe_publishable_key"
 STRIPE_SECRET_KEY="your_stripe_secret_key"
 ```
@@ -75,6 +66,26 @@ STRIPE_SECRET_KEY="your_stripe_secret_key"
 ## Step 5: Performance Testing
 - Use **Lighthouse** or **GTmetrix** to analyze page load speed and interactivity.
 - Optimize for fast performance across desktop, tablet, and mobile devices.
+
+## Test Cases
+
+| Test Case | Test Case Name | Test Steps | Expected Outcome | Actual Result | Status | Severity Level | Remarks |
+|-----------|----------------|------------|------------------|---------------|--------|---------------|---------|
+| TC001 | Product Listing | Verify product display | Products load dynamically | Displayed correctly | Passed | High | No issues found |
+| TC002 | Filters and Search | Apply filters and search | Filters show relevant results | Filters worked as expected | Passed | Medium | Test successful |
+| TC003 | Cart Operations - Add | Add items to cart | Items added successfully | Items added successfully | Passed | Medium | Test successful |
+| TC004 | Cart Operations - Update | Update item quantities | Quantities update correctly | Quantities updated | Passed | Medium | Test successful |
+| TC005 | Cart Operations - Remove | Remove items from cart | Items removed successfully | Items removed | Passed | Medium | Test successful |
+| TC006 | Cart Summary | Check cart summary | Correct total and item count | Summary reflected correctly | Passed | Medium | Test successful |
+| TC007 | Dynamic Routing | Verify dynamic routing | Correct product details load | Dynamic routing works | Passed | High | No issues found |
+| TC008 | Postman API Test | Test API responses | API returns correct data | API responses validated | Passed | High | No issues found |
+| TC009 | React Testing Library | Test component behavior | Components behave as expected | Component tests passed | Passed | High | No issues found |
+| TC010 | Error Handling | Simulate errors and handle | Errors are handled gracefully | Errors displayed properly | Passed | Critical | Security measures added |
+| TC011 | Performance Optimization | Optimize performance | Performance is improved | Improved load times | Passed | High | Performance optimized |
+| TC012 | Cross-Browser Testing | Test on different devices | Website functions on all devices | All devices compatible | Passed | Medium | Responsive across devices |
+| TC013 | Security Testing | Validate inputs & security | No security vulnerabilities | Security tests passed | Passed | Critical | Security validation done |
+| TC014 | User Acceptance Testing | Simulate user workflows | Smooth user experience | User workflows verified | Passed | Medium | UAT passed |
+| TC015 | Documentation Updates | Document findings | Complete documentation | Documentation updated | Passed | Medium | All updates documented |
 
 ## Conclusion
 The above steps ensure a seamless transition from development to live deployment. By following this process, the application is well-optimized, secure, and production-ready for users.
