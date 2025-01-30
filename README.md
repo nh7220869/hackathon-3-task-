@@ -25,6 +25,15 @@ Vercel has been selected due to its:
 A `.env` file stores sensitive environment variables securely. Example:
 ```
 NEXT_PUBLIC_SANITY_PROJECT_ID="your_sanity_project_id"
+NEXT_PUBLIC_SANITY_DATASET="your_sanity_dataset"
+SANITY_API_TOKEN="your_sanity_api_token"
+NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY="your_clerk_publishable_key"
+CLERK_SECRET_KEY="your_clerk_secret_key"
+SHIPENGINE_API_KEY="your_shipengine_api_key"
+SHIPENGINE_FIRST_COURIER="your_first_courier"
+SHIPENGINE_SECOND_COURIER="your_second_courier"
+SHIPENGINE_THIRD_COURIER="your_third_courier"
+SHIPENGINE_FOURTH_COURIER="your_fourth_courier"
 NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY="your_stripe_publishable_key"
 STRIPE_SECRET_KEY="your_stripe_secret_key"
 ```
@@ -87,5 +96,10 @@ STRIPE_SECRET_KEY="your_stripe_secret_key"
 
 
 
+
 ## Conclusion
-The above steps ensure a seamless transition from development to live deployment. By following this process, the application is well-optimized, secure, and production-ready for users.
+The above steps ensure a seamless transition from development to live deployment. By following this structured deployment process, the application is optimized for performance, security, and scalability, ensuring a smooth experience for users.
+
+Thorough testing in the staging environment helps identify and resolve potential issues before the production release, minimizing downtime and enhancing user satisfaction. The integration of performance optimization tools ensures fast load times, while security validations safeguard sensitive user data.
+
+With continuous monitoring, automated deployments, and robust documentation, the marketplace application remains maintainable and adaptable for future updates. By adhering to these best practices, developers and stakeholders can confidently deliver a high-quality product that meets user expectations and business goals.
