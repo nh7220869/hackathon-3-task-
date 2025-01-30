@@ -25,6 +25,15 @@ Vercel has been selected due to its:
 A `.env` file stores sensitive environment variables securely. Example:
 ```
 NEXT_PUBLIC_SANITY_PROJECT_ID="your_sanity_project_id"
+NEXT_PUBLIC_SANITY_DATASET="your_sanity_dataset"
+SANITY_API_TOKEN="your_sanity_api_token"
+NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY="your_clerk_publishable_key"
+CLERK_SECRET_KEY="your_clerk_secret_key"
+SHIPENGINE_API_KEY="your_shipengine_api_key"
+SHIPENGINE_FIRST_COURIER="your_first_courier"
+SHIPENGINE_SECOND_COURIER="your_second_courier"
+SHIPENGINE_THIRD_COURIER="your_third_courier"
+SHIPENGINE_FOURTH_COURIER="your_fourth_courier"
 NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY="your_stripe_publishable_key"
 STRIPE_SECRET_KEY="your_stripe_secret_key"
 ```
